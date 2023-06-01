@@ -43,3 +43,80 @@ body
     border: 10px solid #fbb03b; 
     box-shadow: 6px 7px 9px 5px #fbb03b73;
 }
+.profile-img
+{
+    width: 100%;
+    border-radius: 50%;
+}
+.box-1
+{
+    position: relative;
+}
+.headding
+{
+    background-color: #4d4d4d;
+    padding: 10px;
+    color: #fbb03b;
+    text-align: left;
+    padding-left: 20px;
+    margin-right: -15px;
+}
+.headding::after
+{
+    content: "";
+    position: absolute;
+    width: 21px;
+    height: 18px;
+    background-color: #5a5959;
+    left: 191px;
+    top: 26px;
+    transform: rotate(56deg);
+    z-index: -1;
+}
+.p1
+{
+    padding: 9px 10px;
+    font-size: 11px;
+}
+.icons1
+{
+    font-size: 16px !important;
+    padding-right: 10px !important;
+    vertical-align: sub;
+}
+.skill-container
+{
+    width: 90%;
+    background-color: #4d4d4d;
+    margin: 0px 10px;
+}
+.skill
+{
+  text-align: right;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: white;  
+}
+.skill-html
+{
+    width: 90%;
+    background-color: white;
+}
+.skill-css
+{
+    width: 80%;
+    background-color: white;
+}
+.skill-js
+{
+    width: 85%;
+    background-color: white;
+}
+.skill-jquery
+{
+    width: 80%;
+    background-color: white;
+}
+
+
+
